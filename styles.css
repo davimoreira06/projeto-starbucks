@@ -14,14 +14,36 @@ body{
 .topo-menu {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.link {
-    text-decoration: none;
-    list-style-type: none;
-    
+.navbar {
+    margin-right: 30px;
+    margin-top: 20px;
 }
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 70px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 530;
+    letter-spacing: 1px;
+}
+
+li a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li a:visited {
+    color: #333;
+}
+
+li a:hover {
+    color: #017143;
+}
+
 
 .conteudo {
     display: flex;
